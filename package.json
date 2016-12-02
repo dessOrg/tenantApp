@@ -1,0 +1,31 @@
+
+{
+  "name": "tenantApp",
+  "version": "1.0.0",
+  "description": "House enterprise web app",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm install && bower install && nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.14.0",
+    "bower": "^1.7.9",
+    "nodemon": "^1.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dessHub/tenantApp.git"
+  },
+  "author": "dessHub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dessHub/tenantApp/issues"
+  },
+  "homepage": "https://github.com/dessHub/tenantApp#README"
+}
